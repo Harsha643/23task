@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.a1{
+    display:flex;
+    position: sticky;
+    top: 0px;
+
+    padding: 20px;
+  justify-content: space-between;
+   z-index: 10;
+   background-color: white;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+ .text{
+    text-align: center;
+}
+.container{
+    
+   
+    gap: 10px;
+flex-basis: 100%;
+
+
+
+
+} 
+.main-container{
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 20px;
+  padding: 20px;
+  justify-content: center;
+
+}
+ .icon:hover{
+    background-color:black;
+ }
+ .food:hover{
+    background-color:black;
+ }
+ .mail:hover{
+    background-color:#ccc;
+ }
+.footer{
+    display: flex;
+    justify-content:center ;
+    background-color:white;
+}
+.f1:hover{
+    background-color: #ccc;
+}
+.f2:hover{
+    background-color: #ccc;
+}
+.f3:hover{
+    background-color: #ccc;
+}
+.f4:hover{
+    background-color: #ccc;
+}
+.f5:hover{
+    background-color: #ccc;
+}
+.f6:hover{
+    background-color: #ccc;
+}
+@media screen and (width >= 600px){
+    .a1{
+        font-size: 2rem;
+    }
+    .container{
+        flex: 1 1 20%; 
+    }
+    .footer{
+        font-size: 2rem;
+    }  
+
+}
+
+
